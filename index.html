@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+ 
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  
+  <link rel="stylesheet" href="dist/style.css">
+ 
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header__content container">
+
+            <!-- <a id="mobileToggle" href="#" class="header__toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a> -->
+
+            <a id="mobileToggle" href="javascript:void(0)" class="header__toggle">
+                <img src="images/icon-menu.svg" alt="Mobile Menu Toggle">
+            </a>
+
+
+            <div class="overlay has-fade"></div>
+
+            <nav id="mobileMenu" class="header__mobile">
+
+                <button id="mobileToggleClose" class="header__toggleClose">
+                    <img src="images/icon-close.svg" alt="Mobile close toggle" /> 
+                </button>
+
+                <a href="#">Collections</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+
+            </nav>
+            
+
+            <div class="header__logo">
+                <img src="images/logo.svg" alt="E-commerce product page">
+            </div>
+
+            
+            <nav id="desktopMenu" class="header__desktop">
+                <a href="#">Collections</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            
+
+            <div class="header__cart-area">
+
+                <a id="cart-toggle" class="header__cart">
+                    <img src="images/icon-cart.svg" alt="cart">
+                    <div class="header__cart-notification">
+                        0
+                    </div>
+                </a>
+
+                
+                <div id="cart-container" class="header__cart-container">
+
+                <div class="header__cart-container-header">
+                    <h3>Cart</h3>
+                </div>
+
+                <!-- <div class="header__cart-container-content empty">
+                    <p>Your cart is empty</p>
+                </div> -->
+
+                <div class="header__cart-container-content">
+                    
+                    <div class="header__cart-container-product-grid">
+
+                        <div class="header__cart-container-image">
+                            <img src="images/image-product-1-thumbnail.jpg" alt="Product image">
+                        </div>
+    
+                        <div class="header__cart-container-product">
+                            <p>Autumn Limited Edition ...</p>
+                            <p>$125.00 x 3 <strong>$375.00</strong></p>
+                        </div>
+    
+                        <div class="header__cart-container-action">
+                            <a href="#">
+                                <img src="images/icon-delete.svg" alt="Delete icon">
+                            </a>
+                
+                        </div>
+
+                    </div>
+
+                    <div class="header__cart-container-product-grid">
+
+                        <div class="header__cart-container-image">
+                            <img src="images/image-product-1-thumbnail.jpg" alt="Product image">
+                        </div>
+    
+                        <div class="header__cart-container-product">
+                            <p>Autumn Limited Edition ...</p>
+                            <p>$125.00 x 3 <strong>$375.00</strong></p>
+                        </div>
+    
+                        <div class="header__cart-container-action">
+                            <a href="#">
+                                <img src="images/icon-delete.svg" alt="Delete icon">
+                            </a>
+                
+                        </div>
+
+                    </div>
+        
+                    <a class="header__cart-container-cta" href="#">Checkout</a>           
+
+                </div>
+                
+             </div>
+            </div>
+
+      
+
+            
+
+
+            <div class="header__avatar">
+                <img src="images/image-avatar.png" alt="header avatar">
+            </div>
+
+            
+        </div>
+
+
+    </header>
+
+    
+
+
+
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="app/js/script.js"></script>
+</body>
+</html>
